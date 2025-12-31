@@ -82,7 +82,7 @@ nav {
        display:none;
 
 }
-.humberger-menu {
+.hamburger-menu {
        position : relative;
        display:inline-block;
 
@@ -92,4 +92,6 @@ nav {
        flex-direction:column;
        justify-content:space-between;
        height:24px;
+       width:30px;
+       cursor:pointer;
 }
