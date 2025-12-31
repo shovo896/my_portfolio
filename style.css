@@ -124,3 +124,7 @@ a:hover {
 .menu-links a {
        color: #111111;
 }
+
+.menu-links.open {
+       display: flex;
+}
