@@ -41,7 +41,7 @@ nav {
 }
 
 .logo {
-       font-size: 1.5rem;
+       font-size: 2rem;
        font-weight: 600;
 }
 
@@ -71,4 +71,9 @@ nav {
        color:grey;
        text-decoration: underline;
        text-underline-offset: 1rem;
+       text-decoration-color:rgb(181 ,181 ,181) ;
+ }
+ .logo:hover {
+       cursor : default ;
+
  }
