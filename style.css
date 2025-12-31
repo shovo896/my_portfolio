@@ -129,6 +129,12 @@ a:hover {
 
 .menu-links a {
        color: #111111;
+       display: block;
+       padding: 10px ;
+       text-align: center;
+       font-size: 1.5;
+       text-decoration: none;
+       transition: all 0.3 ease ease-in-out;
 }
 
 .menu-links.open {
