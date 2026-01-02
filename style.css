@@ -188,7 +188,7 @@ section{
        gap: 2rem;
        justify-content: center;
        align-items: flex-start;
-       flex-wrap: wrap;
+       flex-wrap: nowrap;
        margin-top: 2rem;
 }
 .details-containers{
