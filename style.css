@@ -367,3 +367,6 @@ btn-color-1,.btn-color-2:hover{
        justify-content: space-around;
        gap:0.8rem;
 }
+article .icon{
+       cursor:default;
+}
