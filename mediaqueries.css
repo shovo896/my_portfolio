@@ -10,4 +10,7 @@
        .experience-details-container{
               grid-template-columns: 1fr;
        }
+       .article-container{
+              grid-template-columns: 1fr;
+       }
 }
