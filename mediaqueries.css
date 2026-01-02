@@ -6,4 +6,8 @@
        #hamburger-nav {
               display: flex;
        }
+
+       .experience-details-container{
+              grid-template-columns: 1fr;
+       }
 }
