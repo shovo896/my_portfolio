@@ -438,4 +438,8 @@ article .icon{
 }
 
 /*contact*/ 
-
+#contact {
+       display:flex;
+       justify-content: flex;
+       flex-direction: column;
+}
