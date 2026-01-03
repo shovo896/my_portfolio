@@ -448,4 +448,8 @@ article .icon{
        display: flex;
        justify-content: center;
        border-radius:2rem;
+       border:rgb(53,53,53) 0.1rem solid;
+       border-color:rgb(250,250,250);
+       margin:2rem auto;
+       padding:0.5rem;
 }
