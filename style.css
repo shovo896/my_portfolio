@@ -415,6 +415,7 @@ article .icon{
 .project-title{
        font-size: 1.4rem;
        color: #111111;
+       margin:1rem;
 }
 .project-links{
        display: flex;
@@ -423,6 +424,8 @@ article .icon{
 }
 .project-btn{
        width: 7.5rem;
+       color:black;
+       border-color: rgb(163,163,163);
 }
 #projects .arrow{
        position: static;
