@@ -173,11 +173,11 @@ a:hover {
 }
 /*sections*/ 
 section{
-       padding-top: 4vh;
-       height: 96vh;
+       padding: 4vh 0;
+       height: auto;
+       min-height: 96vh;
        margin: 0 10rem;
        box-sizing: border-box;
-       min-height: fit-content;
 }
 .section-container{
        display: flex;
@@ -371,3 +371,60 @@ article .icon{
        cursor:default;
 }
 /*projects section*/
+#projects{
+       position: relative;
+}
+.projects-grid{
+       display: grid;
+       grid-template-columns: repeat(auto-fit,minmax(260px,320px));
+       gap: 2rem;
+       justify-content: center;
+       align-items: stretch;
+       margin-top: 3rem;
+}
+.project-card{
+       background: #ffffff;
+       border: 1px solid rgb(200,200,200);
+       border-radius: 1.75rem;
+       box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+       padding: 1.5rem;
+       text-align: center;
+       display: flex;
+       flex-direction: column;
+       gap: 1.25rem;
+       transition: all 250ms ease;
+}
+.project-card:hover{
+       transform: translateY(-6px);
+       box-shadow: 0 16px 36px rgba(0,0,0,0.12);
+}
+.project-image{
+       width: 100%;
+       border-radius: 1.25rem;
+       overflow: hidden;
+       background: #f8f8f8;
+       padding: 0.5rem;
+}
+.project-image img{
+       width: 100%;
+       display: block;
+       border-radius: 1rem;
+       object-fit: cover;
+}
+.project-title{
+       font-size: 1.4rem;
+       color: #111111;
+}
+.project-links{
+       display: flex;
+       justify-content: center;
+       gap: 1rem;
+}
+.project-btn{
+       width: 7.5rem;
+}
+#projects .arrow{
+       position: static;
+       display: block;
+       margin: 2rem auto 0;
+}
