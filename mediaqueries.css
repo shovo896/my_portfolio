@@ -6,6 +6,7 @@
        .about-containers{
               flex-wrap: wrap;
 
+
        }
        #desktop-nav {
               display: none;
@@ -22,27 +23,6 @@
               grid-template-columns: 1fr;
        }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 @media screen and (max-width: 900px) {
        #desktop-nav {
@@ -59,5 +39,40 @@
        .article-container{
               grid-template-columns: 1fr;
        }
+       #experience,.experience-details-container{
+              margin-top:2rem;
+
+
+       }
+       #profile,.section-container{
+              display:block;
+
+
+       }
+       .arrow{
+              display: none;
+
+       }
+       section,.section-container{
+              height:fit-content;
+
+       }
+       section{
+              margin: 0 5% ; 
+
+       }
+       .section__pic-container{
+              width: 275px;
+              height:275px;
+              margin:0 auto 2rem;
+       }
+       .about-containers{
+              margin-top:0;
+
+       }
 }
 
+@media screen and (max-width: 600px) {
+       
+
+}
