@@ -490,10 +490,25 @@ article .icon{
 footer{
        height:26vh;
        margin: 0 1rem;
-
 }
 footer p {
        text-align: center;
        
 }
-
+.footer-links{
+       display: flex;
+       justify-content: center;
+       gap: 2.5rem;
+       font-size: 1.6rem;
+       margin: 2rem 0 1.5rem;
+}
+.footer-links a{
+       color: #111111;
+       font-weight: 500;
+}
+.footer-copy{
+       text-align: center;
+       color: rgb(120,120,120);
+       font-size: 1.1rem;
+       margin-bottom: 2.5rem;
+}
