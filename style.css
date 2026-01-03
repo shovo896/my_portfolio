@@ -486,5 +486,14 @@ article .icon{
        width: 1.8rem;
        object-fit: contain;
 }
-/*Footer*/ 
+/*Footer section */ 
+footer{
+       height:26vh;
+       margin: 0 1rem;
+
+}
+footer p {
+       text-align: center;
+       
+}
 
